@@ -1,0 +1,69 @@
+<div class="page-header" data-parallax="true" style="background-image: url('./assets/img/pexels-pixabay-41949.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+        <div class="motto text-center">
+            <h1>MES INFORMACIÓ</h1>
+            <br />
+            <a href="https://www.youtube.com/watch?v=8R7fy3r5Vuw" class="btn btn-outline-neutral btn-round"><i class="fa fa-play"></i>Més sobre nosaltres</a>
+            
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mr-auto ml-auto">
+                <h2 class="title">Sobre el que oferim</h2>
+                <h5 class="description">Aqui s'escriurà una breu descripció de la informació del servei que s'ofereix</h5>
+                <br>
+                <a href="#paper-kit" class="btn btn-info">Veure detalls</a>
+            </div>
+        </div>
+        <br/><br/>
+       
+
+    </div>
+</div>
+
+
+
+    <div class="section landing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h2 class="text-center">Necessites més informació?</h2>
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Nom</label>
+                                <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Email</label>
+                                <div class="input-group" [ngClass]="{'input-group-focus':focus1===true}">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text">  <i class="nc-icon nc-email-85"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Email" (focus)="focus1=true" (blur)="focus1=false" >
+                                </div>
+                            </div>
+                        </div>
+                        <label>Missatge</label>
+                        <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
+                        <div class="row">
+                            <div class="col-md-4 mr-auto ml-auto">
+                                <button class="btn btn-info btn-lg btn-fill">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
